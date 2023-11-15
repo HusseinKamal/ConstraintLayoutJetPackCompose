@@ -47,8 +47,6 @@ class MainActivity : ComponentActivity() {
                         width = Dimension.value(100.dp)
                         height = Dimension.value(100.dp)
                     }
-
-
                     constrain(redBox ){
                         top.linkTo(parent.top)
                         start.linkTo(greenBox.end) // this mean show redbox next to greenbos
